@@ -34,6 +34,7 @@ function Life()
      },[count]);
      
      //component will unmount
+    // if we did n't put empty array it is consoling log when state changes
      useEffect(()=>{
          return ()=>{
              console.log("component will unmount");
