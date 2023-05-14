@@ -38,7 +38,7 @@ function Life()
          return ()=>{
              console.log("component will unmount");
          }
-     })
+     },[])
 
     return(
         <>
